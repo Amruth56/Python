@@ -38,3 +38,38 @@ dict={'dict1':{1:"hello", 2:[11,22,33,44,55]},
     'dict3':["q","w","e","r","t","y"]}
 
 print(f"\nAccessing elements from a nested dictionary \t{dict['dict1']}\t {dict['dict2']['name']}\t {dict['dict3'][0]}\t {dict['dict1'][2][0]}")
+
+
+
+#                                       Removing elements from the dictionary
+
+#--- most of the times deletion of key is done by the use of del keyword. Using the del keyword, specific values from the dictionary as well as the whole dictionary can be deleted. Items in a nested dictionary can also be deleyed by using the del keyword and providing a specific a specific nested key and particular key to be deleted from the nested Dictionary. 
+
+dict = {1:"hello",2:"world", 3:69, 5:[1,2,3,4,5], 'dict1':{'position':'king', 'kingdom':'SriLanka', 'name':'Ravana'}}
+print(f"\nInitial dictionary \t{dict}")
+
+#deleting a key value
+del dict[1]
+print(f"Dictionary after deleting the eky value 1 from the dictionary \t{dict}")
+
+#Deleting a key from Nested dictionary
+del dict['dict1']['kingdom']
+print(f"Dictionary after deleting a key from Nested Dictionary \t{dict}")
+
+
+#                    USING POP() METHOD
+#--- Used to del and return the value of the specific key
+dict = {1:"hello",2:"world", 3:69, 5:[1,2,3,4,5], 'dict1':{'position':'king', 'kingdom':'SriLanka', 'name':'Ravana'}}
+a=dict.pop(1)
+print(f"\nThe dictionary after poping a key element \t{dict}")
+print(f"The value associated vit the pop keyword is \t{a}")
+
+
+#                    USING POPITEM()
+#--- It returns and removes an arbitrary element{key:value} pair from the dictionary.
+dict = {1:"hello",2:"world", 3:69, 5:[1,2,3,4,5], 'dict1':{'position':'king', 'kingdom':'SriLanka', 'name':'Ravana'}}
+a=dict.popitem()                            #while using popitem always the last key:value pair gets popped 
+print(f"\nThe dictionary after poping a key element \t{dict}")
+print(f"The value associated with the popitem keyword is \t{a}")
+
+
