@@ -7,3 +7,18 @@
 
 dict = {1:"hello",2:"world", 3:69, 5:[1,2,3,4,5]}
 print(f"the newely created dictionary is \t{dict}")
+
+
+#                                       ADDING ELEMENTS TO THE DICTIONMARY
+dict ={}
+print(f"\nIts an empty dictionary `{dict}")
+
+#Adding elements to the empty dictionary
+dict [0]="hello"
+dict[1]=1
+dict[2]=2
+dict[3]=3
+dict[4]="mic testing"
+print(f"\nThe dictionary after adding 5 mixed elements is     {dict}")
+
+
