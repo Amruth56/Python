@@ -73,3 +73,10 @@ print(f"\nThe dictionary after poping a key element \t{dict}")
 print(f"The value associated with the popitem keyword is \t{a}")
 
 
+#                   USING CLEAR() METHOD
+#--- All the elements from the dictionary can be deleted at once after using clear() method
+
+dict1 = {1:"hello",2:"world", 3:69, 5:[1,2,3,4,5], 'dict1':{'position':'king', 'kingdom':'SriLanka', 'name':'Ravana'}}
+dict1.clear()
+print("\nDeletion of entire dictionary")
+print(dict1)
