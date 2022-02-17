@@ -16,19 +16,25 @@ print()
 # print("the newely created array is :", end=" ")
 # for i in range (0,3):
 #     print(a[i],end=' ')
-# print()                                                                   output 123 will be in a single line 
+# print()                                                                   
+                 #                                                       output= the newely created array is :123
 
 
 # a= arr.array('b',[1,2,3])
 # print("the newely created array is :")
 # for i in range (0,3):
 #     print(a[i],end=' ')
-# print()                                                                   output 123 will be in the nxt line
+# print()                                                                  
+                 #                                                      output= the newely created array is :
+                 #                                                            123
 
 
 # a= arr.array('b',[1,2,3])
 # print("the newely created array is :", end=" ")
 # for i in range (0,3):
 #     print(a[i],end=' ')
-# print()                                                                   all the output 123 will be written in new line
-
+# print()                                                                 
+                #                                                       output= the newely created array is :
+                #                                                               1
+                #                                                               2
+                #                                                               3
