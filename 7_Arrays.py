@@ -70,3 +70,14 @@ b.append(4.4)
 print("Array after the append of 4.4 is :", end=" ")
 for x in b:
     print(x,end=" ")
+print()
+
+
+#                                       ACCESSING ELEMENTS FROM THE LIST
+import array as arr
+a=arr.array('i',[1,2,3,4,5,6,7])
+print(f"\naccessing the elements from 1st position of the array :{a[1]}")
+
+
+#                                       REMOVING ELEMENTS FROM THE ARRAY
+
