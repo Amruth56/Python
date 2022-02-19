@@ -116,4 +116,17 @@ print("\nthe newely created array is :",end=" ")
 for i in a :
     print(i,end=" ")
 print(f"\nThe index of first occurenceof 6 is :{a.index(6)}")
-print(f"\nThe index of first occurenceof 1 is :{a.index(1)}")
+print(f"The index of first occurenceof 1 is :{a.index(1)}")
+
+#                                       UPDATING ELEMENTSIN AN ARRAY
+
+import array as arr
+a=arr.array("i",[1,2,3,4,5,6,7,8,9,10])
+print("\nThe elements present in the array are :",end=" ")
+for x in a:
+    print(x,end=" ")
+a[1]=22
+print(f"\narray after updation :",end =" ")
+for i in a:
+    print(i,end=" ")
+print()
