@@ -80,4 +80,14 @@ print(f"\naccessing the elements from 1st position of the array :{a[1]}")
 
 
 #                                       REMOVING ELEMENTS FROM THE ARRAY
+import array as arr
+a=arr.array('i',[1,2,3,4,5,6,6])
+# print("\r")
+print("\nThe popped element of the array is :",end=" ")
+print(a.pop(2))
 
+a.remove(6)                                                 #using remove function we can remove only 1 element at a time.
+print("the array after removing is :",end=" ")
+for i in range (0,5):
+    print(a[i],end=" ")
+print()
