@@ -105,3 +105,15 @@ print()
 print(f"slicing elements in the range 3-8 :{a[3:8]}")
 print(f"printing an array backwards :{a[::-1]}")
 print(f"Printing an element from specific point to end :{a[4:]}")
+
+
+                                        # SEARCHING ELEMENTS IN AN ARRAY
+
+import array as arr
+
+a= arr.array("i",[1,2,3,4,5,6,7,8,9,10])
+print("\nthe newely created array is :",end=" ")
+for i in a :
+    print(i,end=" ")
+print(f"\nThe index of first occurenceof 6 is :{a.index(6)}")
+print(f"\nThe index of first occurenceof 1 is :{a.index(1)}")
