@@ -91,3 +91,17 @@ print("the array after removing is :",end=" ")
 for i in range (0,5):
     print(a[i],end=" ")
 print()
+
+
+                                        # SLICING OF AN ARRAY
+import array as arr
+l=[1,2,3,4,5,6,7,8,9]
+a=arr.array('i',l)
+print("\nInitial array :",end=" ")
+for i in  a:
+    print(i,end=" ")
+print()
+
+print(f"slicing elements in the range 3-8 :{a[3:8]}")
+print(f"printing an array backwards :{a[::-1]}")
+print(f"Printing an element from specific point to end :{a[4:]}")
