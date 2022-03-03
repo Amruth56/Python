@@ -1,9 +1,5 @@
 # list items are ordered, mutable and allows duplicate values.
 
-from ast import comprehension
-from numpy import append
-
-
 myList = ["apple","babana","mango"]
 print (myList)
 print(type(myList))
@@ -38,8 +34,8 @@ print(addList)
 addList.append((69,96))
 print(f'\nadding tuple to the previous list {addList}\n') #similarly we ca add list to list ... 
 
-# USING insert ( position,value )  method
-# append() method is used to add element to the end but insert() method is used for the addition of elemenmmts to the list in desired position.
+#                                       USING insert ( position,value )  method
+# append() method is used to add element to the end but insert() method is used for the addition of elements to the list in desired position.
 
 myList=[]
 print("\nInitially empty")
@@ -53,7 +49,7 @@ myList.insert(5,33)
 print(f"myList after the insert of 3 elements at the desired position \t{myList}\n")
 
 
-# USING extend() method
+#                                       USING extend() method
 # This method is used to add multiple elements into the list at the same time 
 List=[1,2,3,4]
 print(f"\nInitial list {List}")
@@ -63,10 +59,10 @@ print(f"List after using extend function \t{List}")
 
                                         #ACCESSING ELEMENTS FROM THE LIST
 X=["Accessing",'elements','from','the','list']
-print(f'Accessing element from the List \t{X[0]} ,{X[3]}')
+print(f'\nAccessing element from the List \t{X[0]} ,{X[3]}')
 # Multidimensional list
 A=[['indian','Institute',"of","Information","Technology"],["Dharwad","Karnataka"]]
-print(f"Accessing elements from multidimensional array \t\t{A[0][4]} ,{A[1][0]} ,{A[1][1]}\n")
+print(f"Accessing elements from multidimensional array \t\t{A[0][4]} ,{A[1][0]} ,{A[1][1]}")
 #Negative Indexing
 Q=["H",'E','L','L','O']
 print(Q[-1])
@@ -112,7 +108,7 @@ print(f"To print the element from begining to end =\t {z}")
 a=slic[::-1]
 print(f"To print the element in reverse order =\t {a}")
 g=slic[:-6]
-print(f"To print the element from the begining to defined point through negative indexing =\t {g}")
+print(f"To print the element from the begining to defined point through negative indexing =\t {g}\n")
 
 
 # list comprehension
