@@ -17,8 +17,9 @@ for i in range (5):
     print(tuple1)
 
 #                                       ACCESSING A TUPLE
+print()
 tuple1=tuple("hello")
-print(tuple1[3])
+print(tuple1[1])
 
 tuple1=("apple","banana","Mango")
 a,b,c=tuple1
