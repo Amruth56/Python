@@ -1,6 +1,8 @@
-po=[11,22,33,44,55,66,77,88,99]
-print(f"\nelements in the list are\t {po}")
-print(f"element in the list after poping last element\t {po}")
-print(f"popped element is \t {po.pop()}")
-print(f"element in the lis after poping an elememt from specific location\t {po}")
-print(f"popped element is\t {po.pop(3)}\n")
+set1={1,2,3,4,5,6,7,8,9}
+print(f"\n initial set1= {set1}")
+set1.remove(1)
+print(f"set1 after the removal of 1 from the original set= {set1}")
+set1.discard(2)
+print(f"set1 after the discard of 2 from set1= {set1}")
+set1.discard(2)
+print(f"set1 after the discard of already discarded number 2 from set1 ={set1}")

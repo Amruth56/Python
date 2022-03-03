@@ -22,7 +22,7 @@ for i in range(4,11):
 print(f"set1 after adding elements from 4 to 10 using for loop ={set1}")
 
 #                   using update() method
-# it is used to add two or more ekements. It accepts list, tuple, strings as well as other sets and duplicate elements are avoided.
+# it is used to add two or more elements. It accepts list, tuple, strings as well as other sets and duplicate elements are avoided.
 
 set1={1,2,3,4}
 set1.update([10,3,"hello","King"])
@@ -33,7 +33,7 @@ print(f"set1 after update is ={set1}")
 #   Sets cannot be accessed by refering to an index, since sets are unordered and have no index
 
 
-#                                       REMOVING ELEMENTS FORM THE ET
+#                                       REMOVING ELEMENTS FORM THE sET
 #Using remove() method or discard() method
 #           KEYERROR occurs if element doesn't exist in the set. To remove the elements from a set without key error, use discard(), if the element doesn't exist in the set it remains unchanged.
 set1={1,2,3,4,5,6,7,8,9}
