@@ -2,6 +2,12 @@
 # A set is highly optimized method for checking whether a specific element is contained in the set.
 
 #                                       CREATING A SET
+#to create an empty set
+set1=set()
+print(set1)
+set1.add(1)
+print(set1)
+
 set1={1,2,3,4,5}
 print(set1)
 set2=set(["hello","world"])
