@@ -1,10 +1,11 @@
-# -------------------------------------------------------------------------------------------------------------------------------------------------
-
 def f():
-    s="Hello world"
-    print("1,",s)
+    global s
+    s += "gfg"
+    print(s)
+    s= "where are you now"
+    print(s)
 
-s="Hola"
-print("2,",s)                
+#Global variable
+s= "King of court"
 f()
-print("3, Outer function",s)
+print(s)
