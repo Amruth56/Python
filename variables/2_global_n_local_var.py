@@ -5,6 +5,7 @@
 def f():
     print("inside function",s)
 
+# global variable
 s="Dark king"
 f()
 print("Outer function",s)
@@ -22,3 +23,11 @@ print("Outer function",s)
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
+def f():
+    s="Hello world"
+    print("1,",s)
+
+s="Hola"
+print("2,",s)                
+f()
+print("3, Outer function",s)
