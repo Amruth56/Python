@@ -1,13 +1,8 @@
 def f():
-    global s
-    s += "gfg"
-    print("1",s)
-    s = "gfg"
-    print("1.1",s)
-    s= "where are you now"
-    print("2",s)
+    s="Hello world"
+    print("1,",s)
 
-#Global variable
-s= "King of court "
+s="Hola"
+print("2,",s)                
 f()
-print("3",s)
+print("3, Outer function",s)
