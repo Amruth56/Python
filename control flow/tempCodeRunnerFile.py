@@ -1,4 +1,8 @@
-print("\nSet Iteration")
-set1 = {1,2,3,4,5,6}
-for i in set1:
-    print(i)
+for letter in 'geeksforgeeks':
+    
+	# break the loop as soon it sees 'e'
+	# or 's'
+	if letter == 'e' or letter == 's':
+		break
+
+print ('Current Letter :', letter)
