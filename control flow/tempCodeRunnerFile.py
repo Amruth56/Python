@@ -1,5 +1,3 @@
-rows = int (input("Enter the number of rows :"))
-for i in range(rows,0,-1):
-    for j in range (i-1,0,-1):
-        print(j, end=" ")
-    print("\r")
+cars=["audi",'jaguar',"Aston Martin", "Ferrari", "Lamborghini", "Mercedes", "Bugatti","Rolls-royce","Pagani"]
+
+print (enumerate(cars))
