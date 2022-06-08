@@ -12,3 +12,6 @@ listA = ['a','e','i','o','u']
  
 iter_listA = iter(listA)
 print(iter_listA)
+
+
+# INCOMPLETE
